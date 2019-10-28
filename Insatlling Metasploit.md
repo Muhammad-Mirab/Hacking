@@ -9,7 +9,7 @@ first open the terminal.
 
 ![Open the Terminal](https://cdn1.imggmi.com/uploads/2019/10/28/0cbf3216fe1180e733c894d30518b697-full.png)
 
-execute `<sudo -s>` and then type your Password.then execute `<apt-get update && apt-get upgrade>`.
+execute `sudo -s` and then type your Password.then execute `apt-get update && apt-get upgrade`.
 
 ![sudo -s](https://cdn1.imggmi.com/uploads/2019/10/28/00d525c347919f1463d6de338f9a9f11-full.png)
 
@@ -17,8 +17,8 @@ and
 
 ![apt-get update && apt-get upgrade](https://cdn1.imggmi.com/uploads/2019/10/28/9fbe6ac6da88f4b617032b92d848a8fa-full.png)
 
-then `<curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall>` run this command and wait to be done.
-then `<chmod 755 msfinstall>` and `<./msfinstall>` then you have to get output like this:
+then `curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall` run this command and wait to be done.
+then `chmod 755 msfinstall` and `./msfinstall` then you have to get output like this:
 > Adding metasploit-framework to your repository list..OK
 > Updating package cache..OK
 > Checking for and installing update..
@@ -53,7 +53,7 @@ then `<chmod 755 msfinstall>` and `<./msfinstall>` then you have to get output l
 > update-alternatives: using /opt/metasploit-framework/bin/msfvenom to provide /usr/bin/msfvenom (msfvenom) in auto mode
 > update-alternatives: using /opt/metasploit-framework/bin/metasploit-aggregator to provide /usr/bin/metasploit-aggregator >(metasploit-aggregator) in auto mode
 > Run msfconsole to get started
-and now by executing `<msfconsole`> command you have to see sth like this:
+and now by executing `msfconsole` command you have to see sth like this:
 
 ![Msfconsole](https://cdn1.imggmi.com/uploads/2019/10/28/f65c76f156b3e0c9281ee8ce31fe5404-full.png)
 
