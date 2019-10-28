@@ -53,3 +53,8 @@ then `<chmod 755 msfinstall>` and `<./msfinstall>` then you have to get output l
 > update-alternatives: using /opt/metasploit-framework/bin/msfvenom to provide /usr/bin/msfvenom (msfvenom) in auto mode
 > update-alternatives: using /opt/metasploit-framework/bin/metasploit-aggregator to provide /usr/bin/metasploit-aggregator >(metasploit-aggregator) in auto mode
 > Run msfconsole to get started
+and now by executing `<msfconsole`> command you have to see sth like this:
+
+![Msfconsole](https://cdn1.imggmi.com/uploads/2019/10/28/f65c76f156b3e0c9281ee8ce31fe5404-full.png)
+
+And now it's mostly done!
