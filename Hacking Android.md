@@ -9,3 +9,7 @@ so at the first we need root permission then we have to build a payload for andr
 you can find your ip address by executing `ifconfig`:
 
 ![ifconfig](https://cdn1.imggmi.com/uploads/2019/10/28/dd2c5976eb3908daf26c3418ab1063d0-full.png)
+
+then enter measploit by executing `msfconsole`.
+
+![msfconsole]
